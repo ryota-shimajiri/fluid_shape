@@ -1,0 +1,85 @@
+.container {
+    margin-top: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fluid {
+    background: aqua;
+    width: 50vh;
+    height: 50vh;
+    animation: fluidAnimation 40s ease 0s infinite normal;
+}
+
+@keyframes fluidAnimation {
+    0%, 100% {
+        border-radius: 59% 41% 21% 79% / 62% 53% 47% 38%;
+    }
+    7% {
+        border-radius: 26% 74% 52% 48% / 52% 32% 68% 48%;
+        width: 40vh;
+        height: 40vh;
+        background: rgb(0, 220, 255);
+    }
+    16% {
+        border-radius: 27% 73% 10% 90% / 81% 72% 28% 19%;
+        width: 45vh;
+        height: 50vh;
+        background: rgb(0, 200, 255);
+    }
+    25% {
+        border-radius: 57% 43% 19% 81% / 52% 69% 31% 48%;
+        width: 60vh;
+        height: 60vh;
+        background: rgb(0, 180, 255);
+    }
+    33% {
+        border-radius: 70% 30% 63% 37% / 78% 30% 70% 22%;
+        width: 30vh;
+        height: 50vh;
+        background: rgb(0, 160, 255);
+    }
+    47% {
+        border-radius: 36% 64% 81% 19% / 22% 64% 36% 78%;
+        width: 50vh;
+        height: 45vh;
+        background: rgb(0, 140, 255);
+    }
+    50% {
+        border-radius: 10% 90% 58% 42% / 85% 41% 59% 15%;
+        width: 40vh;
+        height: 40vh;
+        background: rgb(0, 120, 255);
+    }
+    61% {
+        border-radius: 37% 63% 9% 91% / 65% 20% 80% 35%;
+        width: 45vh;
+        height: 50vh;
+        background: rgb(100, 100, 255);
+    }
+    72% {
+        border-radius: 73% 27% 45% 55% / 51% 52% 48% 49%;
+        width: 53vh;
+        height: 37vh;
+        background: rgb(120, 140, 255);
+    }
+    76% {
+        border-radius: 85% 15% 21% 79% / 29% 49% 51% 71%;
+        width: 33vh;
+        height: 40vh;
+        background: rgb(160, 80, 255);
+    }
+    84% {
+        border-radius: 48% 52% 16% 84% / 30% 69% 31% 70%;
+        width: 53vh;
+        height: 50vh;
+        background: rgb(200, 100, 255);
+    }
+    95% {
+        border-radius: 39% 61% 34% 66% / 68% 46% 54% 32%;
+        width: 62vh;
+        height: 60vh;
+        background: rgb(250, 100, 255);
+    }
+}
